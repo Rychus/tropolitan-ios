@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -318,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>mac.pbxuser</string>
+								<string>RootViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,18 +324,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>mac.pbxuser</string>
+										<string>RootViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>048521CE130D63280046CFE2</string>
+										<string>048521E9130D63F90046CFE2</string>
 										<key>history</key>
 										<array>
 											<string>048521C9130D63280046CFE2</string>
 											<string>048521CA130D63280046CFE2</string>
 											<string>048521CB130D63280046CFE2</string>
-											<string>048521CC130D63280046CFE2</string>
-											<string>048521CD130D63280046CFE2</string>
+											<string>048521DA130D63400046CFE2</string>
+											<string>048521DB130D63400046CFE2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -359,6 +357,8 @@
 							<string>269pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -535,11 +535,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>048521B0130D62990046CFE2</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>047C31F61304700F00E3B554</string>
 		<string>/Users/mac/Documents/Google Code/trunk/iPhone/iPhone.xcodeproj</string>
-		<string>048521B0130D62990046CFE2</string>
 	</array>
 	<key>WindowString</key>
 	<string>566 452 788 504 0 0 1920 1058 </string>
@@ -1061,7 +1061,7 @@
 			<key>WindowToolGUID</key>
 			<string>048521B0130D62990046CFE2</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
