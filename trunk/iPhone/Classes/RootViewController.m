@@ -7,9 +7,19 @@
 //
 
 #import "RootViewController.h"
-
-
 @implementation RootViewController
+
+- (void)viewDidLoad {
+	//---initialize the array---
+	listHeadlines = [[NSMutableArray alloc] init];
+	
+	//---add items---
+	[listHeadlines addObject:@"Car Accident at Trojan Center"];
+	[listHeadlines addObject:@"Something about Video Games"];
+	[listHeadlines addObject:@"SPORTS"];
+	
+	//[super viewDidLoad];
+}
 
 
 #pragma mark -
@@ -59,13 +69,13 @@
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return [listHeadlines count];
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [listHeadlines count];
 }
 
 
@@ -80,7 +90,10 @@
     }
     
 	// Configure the cell.
-
+	NSString *cellValue = [[listHeadlines objectAtIndex:indexPath.row] valueForKey:@"PLEASE"];
+    UILabel *label = [cell textLabel];
+	label.text = cellValue;
+    
     return cell;
 }
 
@@ -157,6 +170,7 @@
 
 
 - (void)dealloc {
+	[listHeadlines release];
     [super dealloc];
 }
 
