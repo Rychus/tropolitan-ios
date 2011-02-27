@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="90"/>
+			<integer value="13"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -122,9 +122,7 @@
 									<object class="IBUITextInputTraits" key="IBTextInputTraits">
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 									</object>
-									<object class="NSArray" key="IBScopeButtonTitles">
-										<bool key="EncodedWithXMLCoder">YES</bool>
-									</object>
+									<reference key="IBScopeButtonTitles" ref="0"/>
 									<int key="IBSelectedScopeButtonIndex">1</int>
 								</object>
 							</object>
@@ -148,7 +146,7 @@
 						</object>
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="394667715">
 							<reference key="IBUINavigationBar"/>
-							<string key="IBUITitle">Troy Tropolitan</string>
+							<string key="IBUITitle">Trop Headlines</string>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="701001926"/>
