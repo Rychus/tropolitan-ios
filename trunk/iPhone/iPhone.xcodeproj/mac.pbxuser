@@ -70,6 +70,26 @@
 		vrLen = 526;
 		vrLoc = 3;
 	};
+	04795AE11318C7C4003E60DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */;
+		name = "iPhoneAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	04795AE21318C7C4003E60DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */;
+		name = "iPhoneAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
 	047C31EF1304700C00E3B554 /* iPhone */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -114,9 +134,9 @@
 	};
 	1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {975, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {600, 286}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 455}";
+			sepNavVisRange = "{0, 231}";
 		};
 	};
 	1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */ = {
@@ -189,7 +209,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					797,
+					341,
 					20,
 					48,
 					43,
@@ -280,8 +300,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320373306;
-			PBXWorkspaceStateSaveDate = 320373306;
+			PBXPerProjectTemplateStateSaveDate = 320374453;
+			PBXWorkspaceStateSaveDate = 320374453;
 		};
 		perUserProjectItems = {
 			047958D61318C7C4003E60DA = 047958D61318C7C4003E60DA /* PBXTextBookmark */;
@@ -290,7 +310,9 @@
 			0479590D1318C7C4003E60DA = 0479590D1318C7C4003E60DA /* PBXTextBookmark */;
 			047959941318C7C4003E60DA = 047959941318C7C4003E60DA /* PBXTextBookmark */;
 			047959B31318C7C4003E60DA = 047959B31318C7C4003E60DA /* PBXTextBookmark */;
-			047959D81318C7C4003E60DA /* PBXTextBookmark */ = 047959D81318C7C4003E60DA /* PBXTextBookmark */;
+			047959D81318C7C4003E60DA = 047959D81318C7C4003E60DA /* PBXTextBookmark */;
+			04795AE11318C7C4003E60DA /* PBXTextBookmark */ = 04795AE11318C7C4003E60DA /* PBXTextBookmark */;
+			04795AE21318C7C4003E60DA /* PBXTextBookmark */ = 04795AE21318C7C4003E60DA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 047C31F81304700F00E3B554 /* Source Control */;
 		userBuildSettings = {
