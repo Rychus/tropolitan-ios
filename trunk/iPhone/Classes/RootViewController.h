@@ -16,7 +16,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+	IBOutlet UITableView *myTableview; 
 	NSMutableArray *listHeadlines;
 }
 

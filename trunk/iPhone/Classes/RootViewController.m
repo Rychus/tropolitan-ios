@@ -18,21 +18,12 @@
 	[listHeadlines addObject:@"Something about Video Games"];
 	[listHeadlines addObject:@"SPORTS"];
 	
-	//[super viewDidLoad];
+	[super viewDidLoad];
 }
 
 
 #pragma mark -
 #pragma mark View lifecycle
-
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-*/
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -69,7 +60,7 @@
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [listHeadlines count];
+    return 1;
 }
 
 
@@ -90,9 +81,7 @@
     }
     
 	// Configure the cell.
-	NSString *cellValue = [[listHeadlines objectAtIndex:indexPath.row] valueForKey:@"PLEASE"];
-    UILabel *label = [cell textLabel];
-	label.text = cellValue;
+	cell.textLabel.text = [listHeadlines objectAtIndex:indexPath.row];
     
     return cell;
 }
