@@ -18,10 +18,10 @@
 	NSString *blurb;
 }
 
-- (void)getTitle;
-- (void)getByline;
-- (void)getBylineTitle;
-- (void)getBody;
-- (void)getBlurb;
+@property(nonatomic, retain) IBOutlet NSString *title;
+@property(nonatomic, retain) IBOutlet NSString *byline;
+@property(nonatomic, retain) IBOutlet NSString *bylineTitle;
+@property(nonatomic, retain) IBOutlet NSString *body;
+@property(nonatomic, retain) IBOutlet NSString *blurb;
 
 @end
