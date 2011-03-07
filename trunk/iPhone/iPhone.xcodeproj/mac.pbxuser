@@ -192,7 +192,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					200,
 					200,
-					607,
+					151,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXBookmarksDataSource_LocationID,
@@ -206,7 +206,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					685,
+					229,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -241,7 +241,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					200,
-					811,
+					355,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXFindDataSource_MessageID,
@@ -255,7 +255,7 @@
 					16,
 					200,
 					50,
-					737,
+					281,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXSymbolsDataSource_SymbolTypeIconID,
@@ -270,9 +270,9 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					773,
+					317,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -293,10 +293,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					757,
+					301,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
