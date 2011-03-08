@@ -10,10 +10,10 @@
 
 @implementation Article
 
-@synthesize title;
+@synthesize headline;
 @synthesize byline;
 @synthesize bylineTitle;
 @synthesize body;
-@synthesize blurb;
+@synthesize category;
 
 @end

@@ -11,17 +11,16 @@
 
 @interface Article : NSObject
 {
-	NSString *title;
-	NSString *byline;
-	NSString *bylineTitle;
-	NSString *body;
-	NSString *blurb;
+	NSMutableString *headline;
+	NSMutableString *byline;//author
+	NSMutableString *bylineTitle;//author job title
+	NSMutableString *body;
+	NSMutableString *category;
 }
 
-@property(nonatomic, retain) IBOutlet NSString *title;
-@property(nonatomic, retain) IBOutlet NSString *byline;
-@property(nonatomic, retain) IBOutlet NSString *bylineTitle;
-@property(nonatomic, retain) IBOutlet NSString *body;
-@property(nonatomic, retain) IBOutlet NSString *blurb;
-
+@property(nonatomic, retain) NSMutableString *headline;
+@property(nonatomic, retain) NSMutableString *byline;
+@property(nonatomic, retain) NSMutableString *bylineTitle;
+@property(nonatomic, retain) NSMutableString *body;
+@property(nonatomic, retain) NSMutableString *category;
 @end

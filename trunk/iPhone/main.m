@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tropolitan.h"
 
 int main(int argc, char *argv[]) {
     
+	Tropolitan* trop = [Tropolitan instance];
+	[trop update];
+	
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     int retVal = UIApplicationMain(argc, argv, nil, nil);
     [pool release];

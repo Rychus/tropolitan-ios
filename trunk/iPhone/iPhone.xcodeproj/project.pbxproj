@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04700416131A966F00E8406A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04700415131A966F00E8406A /* icon.png */; };
+		048110251325ADA100C50B3E /* TropEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = 048110241325ADA100C50B3E /* TropEdition.m */; };
+		048110281325ADB300C50B3E /* Tropolitan.m in Sources */ = {isa = PBXBuildFile; fileRef = 048110271325ADB300C50B3E /* Tropolitan.m */; };
 		048AF516131ADBC500329D98 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AF515131ADBC500329D98 /* Article.m */; };
 		1D3623260D0F684500981E51 /* iPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -20,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04700415131A966F00E8406A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = SOURCE_ROOT; };
+		048110231325AD9500C50B3E /* TropEdition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TropEdition.h; sourceTree = "<group>"; };
+		048110241325ADA100C50B3E /* TropEdition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TropEdition.m; sourceTree = "<group>"; };
+		048110261325ADAA00C50B3E /* Tropolitan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tropolitan.h; sourceTree = "<group>"; };
+		048110271325ADB300C50B3E /* Tropolitan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tropolitan.m; sourceTree = "<group>"; };
 		048AF514131ADBC500329D98 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		048AF515131ADBC500329D98 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +66,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				048110271325ADB300C50B3E /* Tropolitan.m */,
+				048110261325ADAA00C50B3E /* Tropolitan.h */,
+				048110241325ADA100C50B3E /* TropEdition.m */,
+				048110231325AD9500C50B3E /* TropEdition.h */,
 				048AF514131ADBC500329D98 /* Article.h */,
 				048AF515131ADBC500329D98 /* Article.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -104,7 +112,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04700415131A966F00E8406A /* icon.png */,
 				047C31FF1304717900E3B554 /* images */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -178,7 +185,6 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				04700416131A966F00E8406A /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +199,8 @@
 				1D3623260D0F684500981E51 /* iPhoneAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				048AF516131ADBC500329D98 /* Article.m in Sources */,
+				048110251325ADA100C50B3E /* TropEdition.m in Sources */,
+				048110281325ADB300C50B3E /* Tropolitan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

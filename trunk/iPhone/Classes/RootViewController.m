@@ -7,16 +7,21 @@
 //
 
 #import "RootViewController.h"
+#import "Article.h"
+#import "Tropolitan.h"
+
 @implementation RootViewController
 
 - (void)viewDidLoad {
 	//---initialize the array---
 	listHeadlines = [[NSMutableArray alloc] init];
 	
+	[listHeadlines addObject:@"Article 1"];
+	
 	//---add items---
-	[listHeadlines addObject:@"Car Accident at Trojan Center"];
-	[listHeadlines addObject:@"Something about Video Games"];
-	[listHeadlines addObject:@"SPORTS"];
+	for(Article *art in [Tropolitan instance].current.articles)
+		[listHeadlines addObject: art.headline];
+	
 	
 	[super viewDidLoad];
 }
