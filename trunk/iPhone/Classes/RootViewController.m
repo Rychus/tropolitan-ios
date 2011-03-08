@@ -135,16 +135,16 @@
 #pragma mark -
 #pragma mark Table view delegate
 
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
+	
+	 ArticleViewController *detailViewController = [[ArticleViewController alloc] initWithNibName:@"ArticleView" bundle:nil];
+
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
-	 */
-}
+	 
+}*/ 
 
 
 #pragma mark -

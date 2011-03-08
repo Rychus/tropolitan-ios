@@ -87,6 +87,7 @@ struct EditionInfo //basic edition information
 	parser.delegate = self;
 	[parser parse]; //start the parsing
 	[parser release]; //done with parser so get rid of it
+	[url release];
 	
 	NSLog(@"Found: %i Editions", [editions count ]);
 	
@@ -105,12 +106,17 @@ struct EditionInfo //basic edition information
 	if([elementName isEqualToString:@"troparchive"] == true)
 	{
 		NSLog(@"Found a Trop Archive Listing");
+		filePath = [[NSMutableString alloc] initWithString:[attributeDict objectForKey:@"path"]];
+
 	}
 	//If we find a tropedition listing create a new TropEdition with url of entry
 	else if([elementName isEqualToString:@"tropedition"] == true)
 	{
 		NSLog(@"Found Trop Edition Listing");
-		[editions addObject:[[TropEdition alloc] withURLFromString:[attributeDict valueForKey:@"filename"]]];
+		NSMutableString *editionPath = [[NSMutableString alloc] initWithString: filePath];
+		NSLog(@"URL: %@",editionPath);
+		[editionPath appendString:[attributeDict valueForKey:@"filename"]];
+		[editions addObject:[[TropEdition alloc] withURLFromString:editionPath]];
 	}
 	
 	

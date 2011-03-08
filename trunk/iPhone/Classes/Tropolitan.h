@@ -13,6 +13,7 @@
 	
 	NSMutableArray *editions;//Available Editions
 	TropEdition *current;
+	NSString *filePath;//URL path of edition xml files
 	
 }
 

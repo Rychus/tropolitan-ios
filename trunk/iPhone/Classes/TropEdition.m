@@ -35,6 +35,8 @@
 	parser.delegate = self;
 	[parser parse];
 	[parser release];
+	[urlString release];
+	[url release];
 	
 	return self;
 }
