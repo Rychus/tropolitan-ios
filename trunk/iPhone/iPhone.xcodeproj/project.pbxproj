@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04700485131AA5AB00E8406A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04700483131AA5AB00E8406A /* DetailViewController.m */; };
+		04700486131AA5AB00E8406A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04700484131AA5AB00E8406A /* DetailViewController.xib */; };
 		048110251325ADA100C50B3E /* TropEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = 048110241325ADA100C50B3E /* TropEdition.m */; };
 		048110281325ADB300C50B3E /* Tropolitan.m in Sources */ = {isa = PBXBuildFile; fileRef = 048110271325ADB300C50B3E /* Tropolitan.m */; };
 		048AF516131ADBC500329D98 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AF515131ADBC500329D98 /* Article.m */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04700482131AA5AB00E8406A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04700483131AA5AB00E8406A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04700484131AA5AB00E8406A /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Classes/DetailViewController.xib; sourceTree = "<group>"; };
 		048110231325AD9500C50B3E /* TropEdition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TropEdition.h; sourceTree = "<group>"; };
 		048110241325ADA100C50B3E /* TropEdition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TropEdition.m; sourceTree = "<group>"; };
 		048110261325ADAA00C50B3E /* Tropolitan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tropolitan.h; sourceTree = "<group>"; };
@@ -76,6 +81,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* iPhoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iPhoneAppDelegate.m */,
+				04700482131AA5AB00E8406A /* DetailViewController.h */,
+				04700483131AA5AB00E8406A /* DetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,6 +121,7 @@
 			children = (
 				047C31FF1304717900E3B554 /* images */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				04700484131AA5AB00E8406A /* DetailViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iPhone-Info.plist */,
 			);
@@ -185,6 +193,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				04700486131AA5AB00E8406A /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 				048AF516131ADBC500329D98 /* Article.m in Sources */,
 				048110251325ADA100C50B3E /* TropEdition.m in Sources */,
 				048110281325ADB300C50B3E /* Tropolitan.m in Sources */,
+				04700485131AA5AB00E8406A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

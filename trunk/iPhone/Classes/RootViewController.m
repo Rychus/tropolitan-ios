@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "DetailViewController.h"
 #import "Article.h"
 #import "Tropolitan.h"
 
@@ -135,16 +136,21 @@
 #pragma mark -
 #pragma mark Table view delegate
 
-/*
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	
-	 ArticleViewController *detailViewController = [[ArticleViewController alloc] initWithNibName:@"ArticleView" bundle:nil];
 
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 
-}*/ 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {  
+	
+    // Get the selected article  
+    NSString *selectedArticle = [listHeadlines objectAtIndex:indexPath.row];  
+	
+    // Initialize the detail view controller and display it.  
+    DetailViewController *myDetViewCont = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:[NSBundle mainBundle]]; // creating new detail view controller instance  
+    	
+    myDetViewCont.article = selectedArticle; // assigning the correct value to the variable inside DetailViewController  
+    [self.navigationController pushViewController:myDetViewCont animated:YES]; // "Pushing the controller on the screen"  
+    [myDetViewCont release]; // releasing controller from the memory  
+    myDetViewCont = nil;  
+	
+}  
 
 
 #pragma mark -
