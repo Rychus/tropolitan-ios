@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "DetailViewController.h"
+#import "ArticleView.h"
 #import "Article.h"
 #import "Tropolitan.h"
 
@@ -143,11 +143,14 @@
     NSString *selectedArticle = [listHeadlines objectAtIndex:indexPath.row];  
 	
     // Initialize the detail view controller and display it.  
-    DetailViewController *myDetViewCont = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:[NSBundle mainBundle]]; // creating new detail view controller instance  
+    ArticleView *myDetViewCont = [[ArticleView alloc] initWithNibName:@"ArticleView" bundle:[NSBundle mainBundle]]; // creating new detail view controller instance  
     	
-    myDetViewCont.article = selectedArticle; // assigning the correct value to the variable inside DetailViewController  
+    //myDetViewCont.article = selectedArticle; // assigning the correct value to the variable inside DetailViewController  
     [self.navigationController pushViewController:myDetViewCont animated:YES]; // "Pushing the controller on the screen"  
-    [myDetViewCont release]; // releasing controller from the memory  
+    
+	
+	
+	[myDetViewCont release]; // releasing controller from the memory  
     myDetViewCont = nil;  
 	
 }  
