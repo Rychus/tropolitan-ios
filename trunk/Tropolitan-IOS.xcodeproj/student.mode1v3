@@ -266,11 +266,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>080E96DDFE201D6D7F000001</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -329,14 +331,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {580, 269}}</string>
 								<key>RubberWindowFrame</key>
 								<string>370 322 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>269pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 274}, {580, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>370 322 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -375,9 +377,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3FB7D24C133010C800669138</string>
+				<string>3F3AF829133015BE00ACEC5E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3FB7D24D133010C800669138</string>
+				<string>3F3AF82A133015BE00ACEC5E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,10 +517,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3FB7D24F133010C800669138</string>
-		<string>/Users/student/Documents/Tropolitan-IOS/Tropolitan-IOS.xcodeproj</string>
+		<string>/Users/student/Desktop/tropolitan-ios/trunk/Tropolitan-IOS.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>370 322 788 504 0 0 1920 1058 </string>
@@ -598,7 +598,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3FB7D24F133010C800669138</string>
-				<string>3FB7D250133010C800669138</string>
+				<string>3F3AF82B133015BE00ACEC5E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
