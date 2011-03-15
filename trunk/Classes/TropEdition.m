@@ -84,8 +84,8 @@
 	}
 	else if([elementName isEqualToString:@"category"] == true)
 	{
-		[temp.category release];//drop the old value
-		temp.category = tempValue;
+		[temp.section release];//drop the old value
+		temp.section = tempValue;
 	}
 	
 	
