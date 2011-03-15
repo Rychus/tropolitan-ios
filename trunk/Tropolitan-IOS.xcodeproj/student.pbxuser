@@ -10,6 +10,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3FB7D23A133010C000669138 /* Tropolitan-IOS */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Tropolitan-IOS */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Tropolitan-IOS */,
+		);
 		codeSenseManager = 3FB7D259133010C800669138 /* Code sense */;
 		executables = (
 			3FB7D23A133010C000669138 /* Tropolitan-IOS */,
