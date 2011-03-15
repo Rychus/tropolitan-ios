@@ -55,6 +55,7 @@
 			3FA8AF7B1330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF7B1330272400E7D4CD /* PBXTextBookmark */;
 			3FA8AF7C1330272400E7D4CD /* XCBuildMessageTextBookmark */ = 3FA8AF7C1330272400E7D4CD /* XCBuildMessageTextBookmark */;
 			3FA8AF7D1330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF7D1330272400E7D4CD /* PBXTextBookmark */;
+			3FA8AF84133027A700E7D4CD /* PBXTextBookmark */ = 3FA8AF84133027A700E7D4CD /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3FB7D258133010C800669138 /* Source Control */;
 		userBuildSettings = {
@@ -83,9 +84,9 @@
 	};
 	3F3AF8361330165400ACEC5E /* TropEdition.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1521}}";
-			sepNavSelRange = "{2287, 0}";
-			sepNavVisRange = "{1747, 1075}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1599}}";
+			sepNavSelRange = "{2211, 0}";
+			sepNavVisRange = "{1458, 1091}";
 		};
 	};
 	3FA8AF5D1330254A00E7D4CD /* PlistBookmark */ = {
@@ -122,7 +123,7 @@
 		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
 		name = "TropEdition.m: 87";
 		rLen = 0;
-		rLoc = 2227;
+		rLoc = 2226;
 		rType = 0;
 		vrLen = 300;
 		vrLoc = 2090;
@@ -175,10 +176,20 @@
 		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
 		name = "TropEdition.m: 88";
 		rLen = 0;
-		rLoc = 2287;
+		rLoc = 2286;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 1747;
+	};
+	3FA8AF84133027A700E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
+		name = "TropEdition.m: 85";
+		rLen = 0;
+		rLoc = 2211;
+		rType = 0;
+		vrLen = 1091;
+		vrLoc = 1458;
 	};
 	3FB7D23A133010C000669138 /* Tropolitan-IOS */ = {
 		isa = PBXExecutable;

@@ -82,7 +82,7 @@
 		[temp.body release];//drop the old value
 		temp.body = tempValue;
 	}
-	else if([elementName isEqualToString:@"category"] == true)
+	else if([elementName isEqualToString:@"section"] == true)
 	{
 		[temp.section release];//drop the old value
 		temp.section = tempValue;
