@@ -25,7 +25,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -40,12 +40,37 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 321918409;
-			PBXWorkspaceStateSaveDate = 321918409;
+			PBXPerProjectTemplateStateSaveDate = 321922215;
+			PBXWorkspaceStateSaveDate = 321922215;
+		};
+		perUserProjectItems = {
+			3FA8AF5D1330254A00E7D4CD /* PlistBookmark */ = 3FA8AF5D1330254A00E7D4CD /* PlistBookmark */;
+			3FA8AF5E1330254A00E7D4CD /* PBXBookmark */ = 3FA8AF5E1330254A00E7D4CD /* PBXBookmark */;
+			3FA8AF5F1330254A00E7D4CD /* PBXBookmark */ = 3FA8AF5F1330254A00E7D4CD /* PBXBookmark */;
 		};
 		sourceControlManager = 3FB7D258133010C800669138 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	3FA8AF5D1330254A00E7D4CD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Tropolitan_IOS-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/student/tropolitan-ios/trunk/Tropolitan_IOS-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	3FA8AF5E1330254A00E7D4CD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3FA8AF53133024C900E7D4CD /* Trop.png */;
+	};
+	3FA8AF5F1330254A00E7D4CD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3FA8AF53133024C900E7D4CD /* Trop.png */;
 	};
 	3FB7D23A133010C000669138 /* Tropolitan-IOS */ = {
 		isa = PBXExecutable;
@@ -81,7 +106,7 @@
 		isSCMEnabled = 0;
 		scmConfiguration = {
 			repositoryNamesForRoots = {
-				"" = "";
+				"" = googlecode;
 			};
 		};
 	};
