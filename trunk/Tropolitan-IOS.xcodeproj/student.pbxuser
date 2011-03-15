@@ -23,7 +23,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					993,
 					20,
 					48,
 					43,
@@ -47,9 +47,45 @@
 			3FA8AF5D1330254A00E7D4CD /* PlistBookmark */ = 3FA8AF5D1330254A00E7D4CD /* PlistBookmark */;
 			3FA8AF5E1330254A00E7D4CD /* PBXBookmark */ = 3FA8AF5E1330254A00E7D4CD /* PBXBookmark */;
 			3FA8AF5F1330254A00E7D4CD /* PBXBookmark */ = 3FA8AF5F1330254A00E7D4CD /* PBXBookmark */;
+			3FA8AF741330271900E7D4CD /* XCBuildMessageTextBookmark */ = 3FA8AF741330271900E7D4CD /* XCBuildMessageTextBookmark */;
+			3FA8AF751330271900E7D4CD /* PBXTextBookmark */ = 3FA8AF751330271900E7D4CD /* PBXTextBookmark */;
+			3FA8AF781330272400E7D4CD /* PBXBookmark */ = 3FA8AF781330272400E7D4CD /* PBXBookmark */;
+			3FA8AF791330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF791330272400E7D4CD /* PBXTextBookmark */;
+			3FA8AF7A1330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF7A1330272400E7D4CD /* PBXTextBookmark */;
+			3FA8AF7B1330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF7B1330272400E7D4CD /* PBXTextBookmark */;
+			3FA8AF7C1330272400E7D4CD /* XCBuildMessageTextBookmark */ = 3FA8AF7C1330272400E7D4CD /* XCBuildMessageTextBookmark */;
+			3FA8AF7D1330272400E7D4CD /* PBXTextBookmark */ = 3FA8AF7D1330272400E7D4CD /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3FB7D258133010C800669138 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	3F3AF8331330165400ACEC5E /* Article.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{342, 0}";
+			sepNavVisRange = "{0, 627}";
+		};
+	};
+	3F3AF8341330165400ACEC5E /* Article.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 282}";
+		};
+	};
+	3F3AF8351330165400ACEC5E /* TropEdition.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 468}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 283}";
+		};
+	};
+	3F3AF8361330165400ACEC5E /* TropEdition.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1521}}";
+			sepNavSelRange = "{2287, 0}";
+			sepNavVisRange = "{1747, 1075}";
 		};
 	};
 	3FA8AF5D1330254A00E7D4CD /* PlistBookmark */ = {
@@ -71,6 +107,78 @@
 	3FA8AF5F1330254A00E7D4CD /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 3FA8AF53133024C900E7D4CD /* Trop.png */;
+	};
+	3FA8AF741330271900E7D4CD /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'category' in something not a structure or union";
+		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 86;
+		rType = 1;
+	};
+	3FA8AF751330271900E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
+		name = "TropEdition.m: 87";
+		rLen = 0;
+		rLoc = 2227;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 2090;
+	};
+	3FA8AF781330272400E7D4CD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3FA8AF53133024C900E7D4CD /* Trop.png */;
+	};
+	3FA8AF791330272400E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8351330165400ACEC5E /* TropEdition.h */;
+		name = "TropEdition.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	3FA8AF7A1330272400E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8331330165400ACEC5E /* Article.h */;
+		name = "Article.h: 18";
+		rLen = 0;
+		rLoc = 342;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 0;
+	};
+	3FA8AF7B1330272400E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8341330165400ACEC5E /* Article.m */;
+		name = "Article.m: 17";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 0;
+	};
+	3FA8AF7C1330272400E7D4CD /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'category' in something not a structure or union";
+		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 86;
+		rType = 1;
+	};
+	3FA8AF7D1330272400E7D4CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3AF8361330165400ACEC5E /* TropEdition.m */;
+		name = "TropEdition.m: 88";
+		rLen = 0;
+		rLoc = 2287;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 1747;
 	};
 	3FB7D23A133010C000669138 /* Tropolitan-IOS */ = {
 		isa = PBXExecutable;

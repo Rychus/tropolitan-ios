@@ -15,12 +15,12 @@
 	NSMutableString *byline;//author
 	NSMutableString *bylineTitle;//author job title
 	NSMutableString *body;
-	NSMutableString *category;
+	NSMutableString *section;
 }
 
 @property(nonatomic, retain) NSMutableString *headline;
 @property(nonatomic, retain) NSMutableString *byline;
 @property(nonatomic, retain) NSMutableString *bylineTitle;
 @property(nonatomic, retain) NSMutableString *body;
-@property(nonatomic, retain) NSMutableString *category;
+@property(nonatomic, retain) NSMutableString *section;
 @end

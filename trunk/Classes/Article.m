@@ -14,6 +14,6 @@
 @synthesize byline;
 @synthesize bylineTitle;
 @synthesize body;
-@synthesize category;
+@synthesize section;
 
 @end
