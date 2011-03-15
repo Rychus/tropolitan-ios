@@ -1,264 +1,0 @@
-TTropolitan-IOS
-v7
-r0
-t321917128.441761
-cCheck dependencies
-cProcessInfoPlistFile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Info.plist Tropolitan_IOS-Info.plist
-cCompileXIB /Users/student/Documents/Tropolitan-IOS/MainWindow.xib
-cCompileXIB /Users/student/Documents/Tropolitan-IOS/RootViewController.xib
-cProcessPCH /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch.gch Tropolitan_IOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/main.o /Users/student/Documents/Tropolitan-IOS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan_IOSAppDelegate.o /Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/RootViewController.o /Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS normal i386
-cGenerateDSYMFile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS
-cTouch /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.h
-c000000004D7FD94000000000000000FA
-t1300224320
-s250
-i<UIKit/UIKit.h>
-
-N/Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m
-c000000004D7FD94000000000000010D2
-t1300224320
-s4306
-i"RootViewController.h"
-
-N/Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.h
-c000000004D7FD94000000000000001F0
-t1300224320
-s496
-i<UIKit/UIKit.h>
-
-N/Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m
-c000000004D7FD9400000000000000ACB
-t1300224320
-s2763
-i"Tropolitan_IOSAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/student/Documents/Tropolitan-IOS/MainWindow.xib
-c000000004D7FD9400000000000006010
-t1300224320
-s24592
-
-N/Users/student/Documents/Tropolitan-IOS/RootViewController.xib
-c000000004D7FD9400000000000004459
-t1300224320
-s17497
-
-N/Users/student/Documents/Tropolitan-IOS/Tropolitan_IOS_Prefix.pch
-c000000004D7FD940000000000000014E
-t1300224320
-s334
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app
-t1300224328
-s238
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM
-t1300224328
-s102
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Info.plist
-t1300224326
-s619
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/MainWindow.nib
-t1300224327
-s1516
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/PkgInfo
-t1300224326
-s8
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/RootViewController.nib
-t1300224327
-s979
-
-N/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS
-t1300224328
-s18276
-
-N/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/RootViewController.o
-t1300224328
-s41164
-
-N/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan-IOS.LinkFileList
-c000000004D7FD94600000000000001BE
-t1300224326
-s446
-
-N/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan_IOSAppDelegate.o
-t1300224328
-s52980
-
-N/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/main.o
-t1300224328
-s6304
-
-N/Users/student/Documents/Tropolitan-IOS/main.m
-c000000004D7FD9400000000000000178
-t1300224320
-s376
-i<UIKit/UIKit.h>
-
-N/var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch.gch
-t1300224328
-s15453392
-
-NTropolitan_IOS-Info.plist
-c000000004D7FD940000000000000038D
-t1300224320
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321917126#321917126#0(0"0(0#1#0"29836824280170608#0"0#
-
-CCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/RootViewController.o /Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321917128.036348
-e321917128.220294
-r1
-xCompileC
-xbuild/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/RootViewController.o
-x/Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m321917128#321917128#0(0"0(0#0#68"/Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m8599507232#2101"    cd /Users/student/Documents/Tropolitan-IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-generated-files.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-own-target-headers.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-all-target-headers.hmap -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-project-headers.hmap -F/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -I/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/include -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources/i386 -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources -include /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch -c /Users/student/Documents/Tropolitan-IOS/Classes/RootViewController.m -o /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan_IOSAppDelegate.o /Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321917128.035544
-e321917128.224149
-r1
-xCompileC
-xbuild/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan_IOSAppDelegate.o
-x/Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m321917128#321917128#0(0"0(0#0#75"/Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m8590361184#2115"    cd /Users/student/Documents/Tropolitan-IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-generated-files.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-own-target-headers.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-all-target-headers.hmap -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-project-headers.hmap -F/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -I/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/include -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources/i386 -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources -include /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch -c /Users/student/Documents/Tropolitan-IOS/Classes/Tropolitan_IOSAppDelegate.m -o /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan_IOSAppDelegate.o0#
-
-CCompileC build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/main.o /Users/student/Documents/Tropolitan-IOS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321917128.034701
-e321917128.208866
-r1
-xCompileC
-xbuild/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/main.o
-x/Users/student/Documents/Tropolitan-IOS/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/student/Documents/Tropolitan-IOS/main.m321917128#321917128#0(0"0(0#0#46"/Users/student/Documents/Tropolitan-IOS/main.m8601282240#2065"    cd /Users/student/Documents/Tropolitan-IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-generated-files.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-own-target-headers.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-all-target-headers.hmap -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-project-headers.hmap -F/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -I/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/include -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources/i386 -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources -include /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch -c /Users/student/Documents/Tropolitan-IOS/main.m -o /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/student/Documents/Tropolitan-IOS/MainWindow.xib
-s321917126.783260
-e321917127.432228
-r1
-xCompileXIB
-x/Users/student/Documents/Tropolitan-IOS/MainWindow.xib
-o2011-03-15 17:25:27.158 Interface Builder Cocoa Touch Tool[1530:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF07#2@25"CompileXIB MainWindow.xib321917126#321917127#0(241"2011-03-15 17:25:27.158 Interface Builder Cocoa Touch Tool[1530:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#54"/Users/student/Documents/Tropolitan-IOS/MainWindow.xib8603892960#580"    cd /Users/student/Documents/Tropolitan-IOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/MainWindow.nib /Users/student/Documents/Tropolitan-IOS/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/student/Documents/Tropolitan-IOS/RootViewController.xib
-s321917126.785777
-e321917127.432394
-r1
-xCompileXIB
-x/Users/student/Documents/Tropolitan-IOS/RootViewController.xib
-o2011-03-15 17:25:27.158 Interface Builder Cocoa Touch Tool[1529:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF07#2@33"CompileXIB RootViewController.xib321917126#321917127#0(241"2011-03-15 17:25:27.158 Interface Builder Cocoa Touch Tool[1529:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#62"/Users/student/Documents/Tropolitan-IOS/RootViewController.xib8601381280#596"    cd /Users/student/Documents/Tropolitan-IOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/RootViewController.nib /Users/student/Documents/Tropolitan-IOS/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS
-s321917128.389463
-e321917128.420736
-r1
-xGenerateDSYMFile
-x/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM
-x/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS321917128#321917128#0(0"0(0#0#101"/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS8602968608#407"    cd /Users/student/Documents/Tropolitan-IOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS -o /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app.dSYM0#
-
-CLd /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS normal i386
-s321917128.224256
-e321917128.389332
-r1
-xLd
-x/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS
-xnormal
-xi386
-lSLF07#2@106"Link /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS321917128#321917128#0(0"0(0#0#0"8599945248#940"    cd /Users/student/Documents/Tropolitan-IOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -F/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -filelist /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Objects-normal/i386/Tropolitan-IOS.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Tropolitan-IOS0#
-
-CProcessInfoPlistFile /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Info.plist Tropolitan_IOS-Info.plist
-s321917126.764926
-e321917126.783177
-r1
-xProcessInfoPlistFile
-x/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Info.plist
-xTropolitan_IOS-Info.plist
-lSLF07#2@33"Process Tropolitan_IOS-Info.plist321917126#321917126#0(0"0(0#0#65"/Users/student/Documents/Tropolitan-IOS/Tropolitan_IOS-Info.plist30399800003068008#503"    cd /Users/student/Documents/Tropolitan-IOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tropolitan_IOS-Info.plist -genpkginfo /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app/Info.plist0#
-
-CProcessPCH /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch.gch Tropolitan_IOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s321917127.432636
-e321917128.034615
-r1
-xProcessPCH
-x/var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch.gch
-xTropolitan_IOS_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile Tropolitan_IOS_Prefix.pch321917127#321917128#0(0"0(0#0#65"/Users/student/Documents/Tropolitan-IOS/Tropolitan_IOS_Prefix.pch8599596672#1949"    cd /Users/student/Documents/Tropolitan-IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-generated-files.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-own-target-headers.hmap -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-all-target-headers.hmap -iquote /Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/Tropolitan-IOS-project-headers.hmap -F/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator -I/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/include -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources/i386 -I/Users/student/Documents/Tropolitan-IOS/build/Tropolitan-IOS.build/Debug-iphonesimulator/Tropolitan-IOS.build/DerivedSources -c /Users/student/Documents/Tropolitan-IOS/Tropolitan_IOS_Prefix.pch -o /var/folders/ko/koJcGvOoHKikXhOY0B+mDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Tropolitan_IOS_Prefix-buzdgoqtiqgjhxbmrawqokzrdzqj/Tropolitan_IOS_Prefix.pch.gch0#
-
-CTouch /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app
-s321917128.420809
-e321917128.441731
-r1
-xTouch
-x/Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app
-lSLF07#2@92"Touch /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app321917128#321917128#0(0"0(0#0#0"8602655168#287"    cd /Users/student/Documents/Tropolitan-IOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/student/Documents/Tropolitan-IOS/build/Debug-iphonesimulator/Tropolitan-IOS.app0#
-
