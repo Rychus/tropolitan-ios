@@ -7,6 +7,8 @@
 //
 
 #import "RootViewController.h"
+#import "Article.h"
+#import "Tropolitan.h"
 
 
 @implementation RootViewController
@@ -16,14 +18,29 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
+	
+	sectionList = [[NSMutableArray alloc] init];
+	 	
+	for (Article *art in [Tropolitan instance].current.articles)
+	{
+		if (![sectionList containsObject: art.section]) 
+			[sectionList addObject: art.headline];
+	}
+	
+	NSLog(@"start" + [[Tropolitan instance].current.articles count]);
+	
+	for (NSString *headline in sectionList)
+		NSLog(headline);
+	
+	
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -66,7 +83,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [sectionList count];
 }
 
 
@@ -81,6 +98,7 @@
     }
     
 	// Configure the cell.
+	cell.textLabel.text = [sectionList objectAtIndex:indexPath.row];
 
     return cell;
 }
