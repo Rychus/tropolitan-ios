@@ -7,6 +7,6 @@
 
 #import "ArticleListViewController.h"
 
-@implementation UITableViewController
+@implementation ArticleListViewController
 
 @end

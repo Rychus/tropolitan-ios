@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "Article.h"
 #import "Tropolitan.h"
+#import "ArticleListViewController.h"
 
 
 @implementation RootViewController
@@ -149,13 +150,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	// Initialize the detail view controller and display it.  
+    ArticleListViewController *myDetViewCont = [[ArticleListViewController alloc] initWithNibName:@"ArticleListView" bundle:[NSBundle mainBundle]]; // creating new detail view controller instance  
+	
+    //myDetViewCont.article = selectedArticle; // assigning the correct value to the variable inside DetailViewController  
+    [self.navigationController pushViewController:myDetViewCont animated:YES]; // "Pushing the controller on the screen"  
+    
+	
+	
+	[myDetViewCont release]; // releasing controller from the memory  
+   
 }
 
 
