@@ -12,13 +12,15 @@
 int main(int argc, char *argv[]) {
     
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    
+	
 	//This is the location of your listing of editions
 	const NSString *tropArchiveURL = [[NSString alloc] initWithString:@"http://www.stewonit.com/trop/troparchive.xml"];
 	
 	Tropolitan* trop = [Tropolitan instance];
 	[trop update];
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    
+	
 	
     
     [pool release];

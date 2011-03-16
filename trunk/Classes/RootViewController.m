@@ -11,6 +11,7 @@
 
 @implementation RootViewController
 
+@synthesize sectionList;
 
 #pragma mark -
 #pragma mark View lifecycle

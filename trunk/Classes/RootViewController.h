@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController {
+	
+	NSMutableArray *sectionList;
 }
+
+@property(nonatomic, retain) IBOutlet NSMutableArray *sectionList;
+
+
 
 @end
