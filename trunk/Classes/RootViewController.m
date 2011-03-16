@@ -26,7 +26,7 @@
 	for (Article *art in [Tropolitan instance].current.articles)
 	{
 		if (![sectionList containsObject: art.section]) 
-			[sectionList addObject: art.headline];
+			[sectionList addObject: art.section];
 	}
 	
 	NSLog(@"start" + [[Tropolitan instance].current.articles count]);

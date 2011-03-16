@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -307,8 +309,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,19 +326,19 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3FA8B029133039DC00E7D4CD</string>
+										<string>3FA8B05113303BB700E7D4CD</string>
 										<key>history</key>
 										<array>
 											<string>3FA8AF5D1330254A00E7D4CD</string>
 											<string>3FA8AF781330272400E7D4CD</string>
 											<string>3FA8AF791330272400E7D4CD</string>
-											<string>3FA8AF7A1330272400E7D4CD</string>
-											<string>3FA8AF7B1330272400E7D4CD</string>
-											<string>3FA8AFBE1330324900E7D4CD</string>
 											<string>3FA8AFBF1330324900E7D4CD</string>
 											<string>3FA8AFE1133034CF00E7D4CD</string>
 											<string>3FA8B00F133036FC00E7D4CD</string>
-											<string>3FA8B010133036FC00E7D4CD</string>
+											<string>3FA8B03213303A3C00E7D4CD</string>
+											<string>3FA8B03913303A7400E7D4CD</string>
+											<string>3FA8B03A13303A7400E7D4CD</string>
+											<string>3FA8B05013303BB700E7D4CD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -536,9 +536,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3FB7D24F133010C800669138</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/student/tropolitan-ios/trunk/Tropolitan-IOS.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -923,7 +923,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
