@@ -14,6 +14,7 @@
 @implementation ArticleViewController
 
 @synthesize body;
+@synthesize myView;
 
 - (void) setArticle:(NSString *)title
 {
@@ -44,13 +45,12 @@
 		if(art.headline == articleTitle)
 		{
 			body = art.body;
-			NSLog(@"body: %@", body);
-			[myView setText:art.body];
-		}
+			//NSLog(@"body: %@", body);
+		}		
 	}
-	
-	
-
+	NSLog(@"body: %@", body);
+	//myView.text = [myView.text stringByAppendingString:body];
+	[myView setText:body];
 }
 
 
