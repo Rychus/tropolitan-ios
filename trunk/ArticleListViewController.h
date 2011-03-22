@@ -11,9 +11,12 @@
 
 @interface ArticleListViewController : UITableViewController {
 	
+	NSMutableArray *articleList;
 	NSString *sectionTitle;//the section we want to see articles for
 
 }
+
+@property(nonatomic, retain) IBOutlet NSMutableArray *articleList;
 
 - (void) setSection: (NSString*)title;
 

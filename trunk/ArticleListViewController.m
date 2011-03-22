@@ -7,10 +7,13 @@
 //
 
 #import "ArticleListViewController.h"
-
+#import "Tropolitan.h"
+#import "Article.h"
+#import "ArticleViewController.h"
 
 @implementation ArticleListViewController
 
+@synthesize articleList;
 
 //custom functions
 
@@ -18,33 +21,50 @@
 {
 	sectionTitle = [[NSString alloc] init];
 	sectionTitle = title;
-	self.navigationItem.title = title;
-	
+	self.navigationItem.title = title;	
 }
-
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	NSLog(@"sectionTitle: %@",sectionTitle);
+	
+	articleList = [[NSMutableArray alloc] init];
+	
+	for (Article *art in [Tropolitan instance].current.articles)
+	{
+		if (![articleList containsObject: art.headline])
+		{
+			if(art.section == sectionTitle)
+			{
+				[articleList addObject: art.headline];
+				NSLog(@"Section: %@",art.section);
+				NSLog(@"Article: %@", [articleList objectAtIndex:0]);
+			}
+		}
+	}
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
 */
-/*
-- (void)viewDidAppear:(BOOL)animated {
+
+/*- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+	
 }
 */
+
 /*
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -69,13 +89,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 0;
+    return [articleList count];
 }
 
 
@@ -90,6 +110,7 @@
     }
     
     // Configure the cell...
+	cell.textLabel.text = [articleList objectAtIndex:indexPath.row];
     
     return cell;
 }
@@ -140,13 +161,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+    ArticleViewController *controller = [[ArticleViewController alloc] initWithNibName:@"ArticleViewController" bundle:nil];
     // ...
+	[controller setArticle:[articleList objectAtIndex:[indexPath row]]];
     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+    
 }
 
 
@@ -168,6 +190,8 @@
 
 - (void)dealloc {
     [super dealloc];
+	[articleList release];
+	[sectionTitle release];
 }
 
 
