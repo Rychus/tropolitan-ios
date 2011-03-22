@@ -147,9 +147,12 @@
 	
 	 ArticleListViewController *detailViewController = [[ArticleListViewController alloc] initWithNibName:@"ArticleListView" bundle:nil];
      // ...
+	
+	//sets section name based on item selected
+	[detailViewController setSection:[sectionList objectAtIndex:[indexPath row]]];
      // Pass the selected object to the new view controller.
 	 [self.navigationController pushViewController:detailViewController animated:YES];
-	[detailViewController setSection:@"SectionName"];
+	
 	 [detailViewController release];
 	 
 }
