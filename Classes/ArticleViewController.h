@@ -13,9 +13,11 @@
 
 	NSString *articleTitle;
 	NSString *body;
+	UITextView *myView;
 }
 
 @property(nonatomic, retain)IBOutlet NSString *body;
+@property(nonatomic, retain)IBOutlet UITextView *myView;
 
 - (void) setArticle: (NSString*)title;
 
