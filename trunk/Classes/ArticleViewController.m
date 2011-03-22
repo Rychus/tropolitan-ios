@@ -37,17 +37,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	body = [[NSString alloc] init];
+	
 	for (Article *art in [Tropolitan instance].current.articles)
 	{
-		if (body == nil)
+		if(art.headline == articleTitle)
 		{
-			if(art.headline == articleTitle)
-			{
-				body = art.body;
-				NSLog(@"body: %@", body);
-			}
+			body = art.body;
+			NSLog(@"body: %@", body);
+			[myView setText:art.body];
 		}
 	}
+	
+	
 
 }
 
