@@ -24,7 +24,7 @@
 	UIImageView *logoImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner.png"]];
 	
 	// put this banner above the nav bar ---> -30 as Y point means put it in the -30 Y-axis of the parent view --> which will be the tabbarcontroller.view.
-	UIView *bannerLogoView = [[UIView alloc] initWithFrame:CGRectMake(0,-77, 320, 77)];
+	UIView *bannerLogoView = [[UIView alloc] initWithFrame:CGRectMake(0,-30, 320, 50)];
 	[bannerLogoView addSubview:logoImage];
 	[logoImage release];
 	
@@ -32,7 +32,7 @@
 	[navigationController.view addSubview:bannerLogoView];
 	[bannerLogoView release];
 	//Move the root view to show status bar & banner
-	navigationController.view.frame = CGRectMake(0,95, 320, 430);
+	navigationController.view.frame = CGRectMake(0,50, 320, 430);
 	
 	//add the modified logo view to window
 	[self.window addSubview:navigationController.view];
