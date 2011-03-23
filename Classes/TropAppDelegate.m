@@ -19,15 +19,25 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-    // Override point for customization after application launch.
-    
-    // Add the navigation controller's view to the window and display.
-    [self.window addSubview:navigationController.view];
-    [self.window makeKeyAndVisible];
-
-    return YES;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	//create a view  for the banner logo add the banner to this view
+	UIImageView *logoImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner.png"]];
+	
+	// put this banner above the nav bar ---> -30 as Y point means put it in the -30 Y-axis of the parent view --> which will be the tabbarcontroller.view.
+	UIView *bannerLogoView = [[UIView alloc] initWithFrame:CGRectMake(0,-77, 320, 77)];
+	[bannerLogoView addSubview:logoImage];
+	[logoImage release];
+	
+	//add the tabcotroller as a subview of the view
+	[navigationController.view addSubview:bannerLogoView];
+	[bannerLogoView release];
+	//Move the root view to show status bar & banner
+	navigationController.view.frame = CGRectMake(0,95, 320, 430);
+	
+	//add the modified logo view to window
+	[self.window addSubview:navigationController.view];
+	[self.window makeKeyAndVisible];
+	return YES;
 }
 
 
