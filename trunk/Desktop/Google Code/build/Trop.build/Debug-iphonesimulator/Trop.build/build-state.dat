@@ -1,489 +1,0 @@
-TTrop
-v7
-r0
-t322531794.698718
-cCheck dependencies
-cProcessInfoPlistFile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Info.plist" Trop-Info.plist
-cCompileXIB "/Users/student/Desktop/Google Code/MainWindow.xib"
-cCompileXIB "/Users/student/Desktop/Google Code/RootViewController.xib"
-cCompileXIB "/Users/student/Desktop/Google Code/ArticleListView.xib"
-cCompileXIB "/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib"
-cCpResource build/Debug-iphonesimulator/Trop.app/banner.png ../banner.png
-cProcessPCH /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch.gch Trop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/main.o "/Users/student/Desktop/Google Code/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropAppDelegate.o "/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/RootViewController.o "/Users/student/Desktop/Google Code/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Article.o "/Users/student/Desktop/Google Code/Classes/Article.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropEdition.o "/Users/student/Desktop/Google Code/Classes/TropEdition.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Tropolitan.o "/Users/student/Desktop/Google Code/Classes/Tropolitan.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleListViewController.o "/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleViewController.o "/Users/student/Desktop/Google Code/Classes/ArticleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop" normal i386
-cGenerateDSYMFile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app.dSYM" "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop"
-cTouch "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Users/student/Desktop/Google Code/../banner.png
-c000000004D8935220000000000008397
-t1300837666
-s33687
-
-N/Users/student/Desktop/Google Code/ArticleListView.xib
-c000000004D89342200000000000035E0
-t1300837410
-s13792
-
-N/Users/student/Desktop/Google Code/ArticleListViewController.h
-c000000004D89342200000000000001C4
-t1300837410
-s452
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m
-c000000004D893422000000000000146E
-t1300837410
-s5230
-i"ArticleListViewController.h"
-i"Tropolitan.h"
-i"Article.h"
-i"ArticleViewController.h"
-
-N/Users/student/Desktop/Google Code/Classes/Article.h
-c000000004D8934220000000000000273
-t1300837410
-s627
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/Classes/Article.m
-c000000004D893422000000000000011A
-t1300837410
-s282
-i"Article.h"
-
-N/Users/student/Desktop/Google Code/Classes/ArticleViewController.h
-c000000004D89342200000000000001B8
-t1300837410
-s440
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/Classes/ArticleViewController.m
-c000000004D8934220000000000000736
-t1300837410
-s1846
-i"ArticleViewController.h"
-i"Article.h"
-i"Tropolitan.h"
-
-N/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib
-c000000004D8934220000000000004E0A
-t1300837410
-s19978
-
-N/Users/student/Desktop/Google Code/Classes/RootViewController.h
-c000000004D8934220000000000000110
-t1300837410
-s272
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/Classes/RootViewController.m
-c000000004D89342200000000000012E3
-t1300837410
-s4835
-i"RootViewController.h"
-i"Article.h"
-i"Tropolitan.h"
-i"ArticleListViewController.h"
-
-N/Users/student/Desktop/Google Code/Classes/TropAppDelegate.h
-c000000004D89342200000000000001D2
-t1300837410
-s466
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m
-c000000004D8939940000000000000CF5
-t1300838804
-s3317
-i"TropAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/student/Desktop/Google Code/Classes/TropEdition.h
-c000000004D8934220000000000000375
-t1300837410
-s885
-i<Foundation/Foundation.h>
-i"Article.h"
-
-N/Users/student/Desktop/Google Code/Classes/TropEdition.m
-c000000004D8934220000000000000C49
-t1300837410
-s3145
-i"TropEdition.h"
-
-N/Users/student/Desktop/Google Code/Classes/Tropolitan.h
-c000000004D8934220000000000000340
-t1300837410
-s832
-i<Foundation/Foundation.h>
-i"TropEdition.h"
-
-N/Users/student/Desktop/Google Code/Classes/Tropolitan.m
-c000000004D8934220000000000000AF5
-t1300837410
-s2805
-i"Tropolitan.h"
-i"Article.h"
-
-N/Users/student/Desktop/Google Code/MainWindow.xib
-c000000004D8934220000000000006F00
-t1300837410
-s28416
-
-N/Users/student/Desktop/Google Code/RootViewController.xib
-c000000004D893422000000000000444F
-t1300837410
-s17487
-
-N/Users/student/Desktop/Google Code/Trop_Prefix.pch
-c000000004D893422000000000000013A
-t1300837410
-s314
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app
-t1300838806
-s340
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app.dSYM
-t1300838806
-s102
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/ArticleListView.nib
-t1300837416
-s979
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/ArticleViewController.nib
-t1300837416
-s1803
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Info.plist
-t1300837415
-s579
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/MainWindow.nib
-t1300837416
-s1879
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/PkgInfo
-t1300837415
-s8
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/RootViewController.nib
-t1300837416
-s979
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop
-t1300838806
-s45608
-
-N/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/banner.png
-t1300838241
-s33687
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Article.o
-t1300837418
-s11144
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleListViewController.o
-t1300837418
-s49808
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleViewController.o
-t1300837418
-s44388
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/RootViewController.o
-t1300837418
-s45912
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Trop.LinkFileList
-c000000004D89342700000000000003CF
-t1300837415
-s975
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropAppDelegate.o
-t1300838806
-s55028
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropEdition.o
-t1300837418
-s20892
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Tropolitan.o
-t1300837418
-s19724
-
-N/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/main.o
-t1300837417
-s7400
-
-N/Users/student/Desktop/Google Code/main.m
-c000000004D89342200000000000001CD
-t1300837410
-s461
-i<UIKit/UIKit.h>
-i"Tropolitan.h"
-
-N/var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch.gch
-t1300837417
-s15453392
-
-NTrop-Info.plist
-c000000004D893422000000000000038D
-t1300837410
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies322531794#322531794#0(0"0(0#1#0"8602276256#0"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Article.o "/Users/student/Desktop/Google Code/Classes/Article.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530217.977383
-e322530218.069437
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Article.o
-x/Users/student/Desktop/Google Code/Classes/Article.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/student/Desktop/Google Code/Classes/Article.m322530217#322530218#0(0"0(0#0#52"/Users/student/Desktop/Google Code/Classes/Article.m8608081184#1846"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/Article.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Article.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleListViewController.o "/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530218.181895
-e322530218.316785
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleListViewController.o
-x/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m322530218#322530218#0(0"0(0#0#73"/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m8600045216#1885"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/../ArticleListViewController.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleListViewController.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleViewController.o "/Users/student/Desktop/Google Code/Classes/ArticleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530218.184686
-e322530218.313043
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleViewController.o
-x/Users/student/Desktop/Google Code/Classes/ArticleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/student/Desktop/Google Code/Classes/ArticleViewController.m:84: warning: property 'myView' requires method '-myView' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/student/Desktop/Google Code/Classes/ArticleViewController.m:84: warning: property 'myView' requires the method 'setMyView:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@74"Compile /Users/student/Desktop/Google Code/Classes/ArticleViewController.m322530218#322530218#0(409"/Users/student/Desktop/Google Code/Classes/ArticleViewController.m:84: warning: property 'myView' requires method '-myView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/student/Desktop/Google Code/Classes/ArticleViewController.m:84: warning: property 'myView' requires the method 'setMyView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'myView' requires method '-myView' to be defined - use @synthesize, @dynamic or provide a method implementation322530218#0#201#0(6@66"/Users/student/Desktop/Google Code/Classes/ArticleViewController.m322530210#84#0#84#0#0"0(22@127"Property 'myView' requires the method 'setMyView:' to be defined - use @synthesize, @dynamic or provide a method implementation322530218#201#208#0(6@66"/Users/student/Desktop/Google Code/Classes/ArticleViewController.m322530210#84#0#84#0#0"0(0#0#66"/Users/student/Desktop/Google Code/Classes/ArticleViewController.m8607988416#1874"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/ArticleViewController.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/ArticleViewController.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/RootViewController.o "/Users/student/Desktop/Google Code/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530217.911316
-e322530218.045321
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/RootViewController.o
-x/Users/student/Desktop/Google Code/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/student/Desktop/Google Code/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
-o/Users/student/Desktop/Google Code/Classes/RootViewController.m:97: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
-lSLF07#2@71"Compile /Users/student/Desktop/Google Code/Classes/RootViewController.m322530217#322530218#0(407"/Users/student/Desktop/Google Code/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/student/Desktop/Google Code/Classes/RootViewController.m:97: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)322530217#135#272#0(6@63"/Users/student/Desktop/Google Code/Classes/RootViewController.m322530210#97#0#97#0#33"'*' is deprecated (declared at *)0(0#0#63"/Users/student/Desktop/Google Code/Classes/RootViewController.m8610751936#1868"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/RootViewController.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropAppDelegate.o "/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322531606.576766
-e322531606.763524
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropAppDelegate.o
-x/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/student/Desktop/Google Code/Classes/TropAppDelegate.m322531606#322531606#0(0"0(0#0#60"/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m8609177984#1862"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/TropAppDelegate.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropAppDelegate.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropEdition.o "/Users/student/Desktop/Google Code/Classes/TropEdition.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530218.045457
-e322530218.184578
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropEdition.o
-x/Users/student/Desktop/Google Code/Classes/TropEdition.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/student/Desktop/Google Code/Classes/TropEdition.m322530218#322530218#0(0"0(0#0#56"/Users/student/Desktop/Google Code/Classes/TropEdition.m8598015424#1854"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/TropEdition.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/TropEdition.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Tropolitan.o "/Users/student/Desktop/Google Code/Classes/Tropolitan.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530218.069567
-e322530218.181778
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Tropolitan.o
-x/Users/student/Desktop/Google Code/Classes/Tropolitan.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/student/Desktop/Google Code/Classes/Tropolitan.m322530218#322530218#0(0"0(0#0#55"/Users/student/Desktop/Google Code/Classes/Tropolitan.m8604201792#1852"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/Classes/Tropolitan.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Tropolitan.o"0#
-
-CCompileC build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/main.o "/Users/student/Desktop/Google Code/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530217.832993
-e322530217.911199
-r1
-xCompileC
-xbuild/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/main.o
-x/Users/student/Desktop/Google Code/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/student/Desktop/Google Code/main.m322530217#322530217#0(0"0(0#0#41"/Users/student/Desktop/Google Code/main.m8609383072#1832"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -include /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch -c "/Users/student/Desktop/Google Code/main.m" -o "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/student/Desktop/Google Code/ArticleListView.xib"
-s322530216.076035
-e322530216.640405
-r1
-xCompileXIB
-x/Users/student/Desktop/Google Code/ArticleListView.xib
-o2011-03-22 18:43:36.566 Interface Builder Cocoa Touch Tool[2300:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.ibtool.document.warnings */
-o/Users/student/Desktop/Google Code/ArticleListView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on ArticleListView.
-lSLF07#2@30"CompileXIB ArticleListView.xib322530216#322530216#0(467"2011-03-22 18:43:36.566 Interface Builder Cocoa Touch Tool[2300:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.ibtool.document.warnings *//Users/student/Desktop/Google Code/ArticleListView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on ArticleListView.1(22@116"The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on ArticleListView.322530216#18446744073709551615#0#0(6@54"/Users/student/Desktop/Google Code/ArticleListView.xib322530210#18446744073709551615#0#18446744073709551615#0#0"0(0#0#54"/Users/student/Desktop/Google Code/ArticleListView.xib8606488736#571"    cd "/Users/student/Desktop/Google Code"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/ArticleListView.nib" "/Users/student/Desktop/Google Code/ArticleListView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib"
-s322530216.151355
-e322530216.689953
-r1
-xCompileXIB
-x/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib
-o2011-03-22 18:43:36.579 Interface Builder Cocoa Touch Tool[2301:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF07#2@44"CompileXIB Classes/ArticleViewController.xib322530216#322530216#0(241"2011-03-22 18:43:36.579 Interface Builder Cocoa Touch Tool[2301:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#68"/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib8603816544#591"    cd "/Users/student/Desktop/Google Code"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/ArticleViewController.nib" "/Users/student/Desktop/Google Code/Classes/ArticleViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/student/Desktop/Google Code/MainWindow.xib"
-s322530215.358764
-e322530216.151252
-r1
-xCompileXIB
-x/Users/student/Desktop/Google Code/MainWindow.xib
-o2011-03-22 18:43:36.009 Interface Builder Cocoa Touch Tool[2296:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF07#2@25"CompileXIB MainWindow.xib322530215#322530216#0(241"2011-03-22 18:43:36.009 Interface Builder Cocoa Touch Tool[2296:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#49"/Users/student/Desktop/Google Code/MainWindow.xib8606122368#561"    cd "/Users/student/Desktop/Google Code"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/MainWindow.nib" "/Users/student/Desktop/Google Code/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/student/Desktop/Google Code/RootViewController.xib"
-s322530215.359678
-e322530216.075926
-r1
-xCompileXIB
-x/Users/student/Desktop/Google Code/RootViewController.xib
-o2011-03-22 18:43:35.993 Interface Builder Cocoa Touch Tool[2295:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF07#2@33"CompileXIB RootViewController.xib322530215#322530216#0(241"2011-03-22 18:43:35.993 Interface Builder Cocoa Touch Tool[2295:1903] CFPreferences: user home directory at file://localhost/Users/student/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#57"/Users/student/Desktop/Google Code/RootViewController.xib8603223840#577"    cd "/Users/student/Desktop/Google Code"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/RootViewController.nib" "/Users/student/Desktop/Google Code/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/Trop.app/banner.png ../banner.png
-s322531041.012964
-e322531041.058668
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Trop.app/banner.png
-x../banner.png
-lSLF07#2@18"Copy ../banner.png322531041#322531041#0(0"0(0#0#48"/Users/student/Desktop/Google Code/../banner.png8609744064#462"    cd "/Users/student/Desktop/Google Code"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/student/Desktop/Google Code/../banner.png" "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app"0#
-
-CGenerateDSYMFile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app.dSYM" "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop"
-s322531606.817742
-e322531606.869701
-r1
-xGenerateDSYMFile
-x/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app.dSYM
-x/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Trop.app.dSYM build/Debug-iphonesimulator/Trop.app/Trop322531606#322531606#0(0"0(0#0#76"/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop8615628096#368"    cd "/Users/student/Desktop/Google Code"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop" -o "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app.dSYM"0#
-
-CLd "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop" normal i386
-s322531606.763636
-e322531606.817621
-r1
-xLd
-x/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop
-xnormal
-xi386
-lSLF07#2@81"Link /Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop322531606#322531606#0(0"0(0#0#0"8603225024#875"    cd "/Users/student/Desktop/Google Code"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" -filelist "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Objects-normal/i386/Trop.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Trop"0#
-
-CProcessInfoPlistFile "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Info.plist" Trop-Info.plist
-s322530215.353228
-e322530215.358663
-r1
-xProcessInfoPlistFile
-x/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Info.plist
-xTrop-Info.plist
-lSLF07#2@23"Process Trop-Info.plist322530215#322530215#0(0"0(0#0#50"/Users/student/Desktop/Google Code/Trop-Info.plist8602896224#464"    cd "/Users/student/Desktop/Google Code"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Trop-Info.plist -genpkginfo "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app/Info.plist"0#
-
-CProcessPCH /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch.gch Trop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s322530216.690100
-e322530217.832770
-r1
-xProcessPCH
-x/var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch.gch
-xTrop_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Trop_Prefix.pch322530216#322530217#0(0"0(0#0#50"/Users/student/Desktop/Google Code/Trop_Prefix.pch8603376096#1729"    cd "/Users/student/Desktop/Google Code"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-generated-files.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-own-target-headers.hmap" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-all-target-headers.hmap" -iquote "/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/Trop-project-headers.hmap" "-F/Users/student/Desktop/Google Code/build/Debug-iphonesimulator" "-I/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/include" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources/i386" "-I/Users/student/Desktop/Google Code/build/Trop.build/Debug-iphonesimulator/Trop.build/DerivedSources" -c "/Users/student/Desktop/Google Code/Trop_Prefix.pch" -o /var/folders/Bu/BuvZoN21GHeySQ-94uivek+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Trop_Prefix-ekeywiosckegmufsgqrmgfaehekj/Trop_Prefix.pch.gch0#
-
-CTouch "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app"
-s322531606.870046
-e322531606.876598
-r1
-xTouch
-x/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app
-lSLF07#2@77"Touch /Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app322531606#322531606#0(0"0(0#0#0"8618473472#271"    cd "/Users/student/Desktop/Google Code"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/student/Desktop/Google Code/build/Debug-iphonesimulator/Trop.app"0#
-
