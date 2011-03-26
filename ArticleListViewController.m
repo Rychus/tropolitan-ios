@@ -31,25 +31,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	NSLog(@"sectionTitle: %@",sectionTitle);
+	NSLog(@"Loading Section %@",sectionTitle);
 	
-	articleList = [[NSMutableArray alloc] init];
-	
-	for (Article *art in [Tropolitan instance].current.articles)
-	{
-		if (![articleList containsObject: art.headline])
+	@try {
+		
+		articleList = [[NSMutableArray alloc] init];
+		
+		for (Article *art in [Tropolitan instance].current.articles)
 		{
-			if(art.section == sectionTitle)
+			if (![articleList containsObject: art.headline])
 			{
-				[articleList addObject: art.headline];
-				NSLog(@"Section: %@",art.section);
-				NSLog(@"Article: %@", [articleList objectAtIndex:0]);
+				if(art.section == sectionTitle)
+				{
+					[articleList addObject: art.headline];
+				}
 			}
 		}
 	}
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	@catch (NSException * e) {
+		NSLog(@"Blake's Fault");
+	}
+	@finally {
+		NSLog(@"Finally done adding articles in section");
+	}
+	
 }
 
 
@@ -190,7 +195,7 @@
 
 - (void)dealloc {
     [super dealloc];
-	[articleList release];
+	[articleList dealloc];
 	[sectionTitle release];
 }
 

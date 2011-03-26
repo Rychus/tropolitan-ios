@@ -24,6 +24,8 @@
 	
 	sectionList = [[NSMutableArray alloc] init];
 	
+	NSLog(@"Listing Sections");
+	
 	
 	for (Article *art in [Tropolitan instance].current.articles)
 	{
@@ -144,8 +146,20 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+
+	ArticleListViewController *detailViewController = [[ArticleListViewController alloc] initWithNibName:@"ArticleListView" bundle:nil];
 	
-	 ArticleListViewController *detailViewController = [[ArticleListViewController alloc] initWithNibName:@"ArticleListView" bundle:nil];
+	@try{
+		NSLog(@"try set section");
+		[detailViewController setSection: [sectionList objectAtIndex:[indexPath row]]];//THIS IS CAUSING OUR CRASH RIGHT HERE
+		
+	}
+	@catch(NSException *e){
+		NSLog(@"Exception %@",e);
+	}
+	@finally {
+		NSLog(@"Done trying to set section");
+	}
      // ...
 	
 	//sets section name based on item selected
@@ -176,6 +190,7 @@
 
 - (void)dealloc {
     [super dealloc];
+	[sectionList dealloc];
 }
 
 
