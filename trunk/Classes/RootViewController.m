@@ -149,25 +149,17 @@
 
 	ArticleListViewController *detailViewController = [[ArticleListViewController alloc] initWithNibName:@"ArticleListView" bundle:nil];
 	
-	@try{
-		NSLog(@"try set section");
-		[detailViewController setSection: [sectionList objectAtIndex:[indexPath row]]];//THIS IS CAUSING OUR CRASH RIGHT HERE
-		
-	}
-	@catch(NSException *e){
-		NSLog(@"Exception %@",e);
-	}
-	@finally {
-		NSLog(@"Done trying to set section");
-	}
-     // ...
+
+	[detailViewController setSection: [sectionList objectAtIndex:[indexPath row]]];//THIS IS CAUSING OUR CRASH RIGHT HERE
+
 	
 	//sets section name based on item selected
 	[detailViewController setSection:[sectionList objectAtIndex:[indexPath row]]];
+	
      // Pass the selected object to the new view controller.
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	
-	 [detailViewController release];
+	 //[detailViewController release]; THis is the temporary fix. Seems to make things not crash...
 	 
 }
 

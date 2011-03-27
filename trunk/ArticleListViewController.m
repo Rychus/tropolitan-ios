@@ -32,28 +32,20 @@
     [super viewDidLoad];
 	
 	NSLog(@"Loading Section %@",sectionTitle);
-	
-	@try {
+
+	articleList = [[NSMutableArray alloc] init];
 		
-		articleList = [[NSMutableArray alloc] init];
-		
-		for (Article *art in [Tropolitan instance].current.articles)
+	for (Article *art in [Tropolitan instance].current.articles)
+	{
+		if (![articleList containsObject: art.headline])
 		{
-			if (![articleList containsObject: art.headline])
+			if(art.section == sectionTitle)
 			{
-				if(art.section == sectionTitle)
-				{
-					[articleList addObject: art.headline];
-				}
+				[articleList addObject: art.headline];
 			}
 		}
 	}
-	@catch (NSException * e) {
-		NSLog(@"Blake's Fault");
-	}
-	@finally {
-		NSLog(@"Finally done adding articles in section");
-	}
+
 	
 }
 
@@ -172,7 +164,7 @@
 	[controller setArticle:[articleList objectAtIndex:[indexPath row]]];
     // Pass the selected object to the new view controller.
     [self.navigationController pushViewController:controller animated:YES];
-    [controller release];
+    //[controller release];
     
 }
 
