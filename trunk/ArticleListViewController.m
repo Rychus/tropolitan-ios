@@ -161,9 +161,11 @@
     
     ArticleViewController *controller = [[ArticleViewController alloc] initWithNibName:@"ArticleViewController" bundle:nil];
     // ...
+	[self.navigationController pushViewController:controller animated:YES];
+	
 	[controller setArticle:[articleList objectAtIndex:[indexPath row]]];
     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:controller animated:YES];
+    
     //[controller release];
     
 }
