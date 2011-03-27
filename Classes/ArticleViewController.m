@@ -38,19 +38,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	body = [[NSString alloc] init];
+
 	
 	for (Article *art in [Tropolitan instance].current.articles)
 	{
 		if(art.headline == articleTitle)
 		{
-			body = art.body;
-			//NSLog(@"body: %@", body);
+			//body = art.body;
+			[myView setText:art.body];
 		}		
 	}
-	NSLog(@"body: %@", body);
-	//myView.text = [myView.text stringByAppendingString:body];
-	[myView setText:body];
+	
+	
 }
 
 
