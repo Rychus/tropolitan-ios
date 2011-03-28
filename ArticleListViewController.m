@@ -160,10 +160,10 @@
     // Navigation logic may go here. Create and push another view controller.
     
     ArticleViewController *controller = [[ArticleViewController alloc] initWithNibName:@"ArticleViewController" bundle:nil];
+	[controller setArticle:[articleList objectAtIndex:[indexPath row]]];
     // ...
 	[self.navigationController pushViewController:controller animated:YES];
 	
-	[controller setArticle:[articleList objectAtIndex:[indexPath row]]];
     // Pass the selected object to the new view controller.
     
     //[controller release];
