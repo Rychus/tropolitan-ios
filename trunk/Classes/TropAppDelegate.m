@@ -8,16 +8,25 @@
 
 #import "TropAppDelegate.h"
 #import "RootViewController.h"
+#import "EditionsViewController.h"
 
 
 @implementation TropAppDelegate
 
 @synthesize window;
 @synthesize navigationController;
-
+@synthesize editionsButton;
 
 #pragma mark -
 #pragma mark Application lifecycle
+
+- (IBAction)viewPrevEditions:(id) sender
+{
+	NSLog(@"Loading editions");
+	EditionsViewController *controller = [[EditionsViewController alloc] initWithNibName:@"EditionsViewController" bundle:nil]; // creating new detail view controller instance
+	[self.navigationController pushViewController:controller animated:YES]; // "Pushing the controller on the screen"  
+	[controller release];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	//create a view  for the banner logo add the banner to this view
