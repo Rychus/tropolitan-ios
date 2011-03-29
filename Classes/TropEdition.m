@@ -72,7 +72,7 @@
 		[temp.byline release];//drop the old value
 		temp.byline = tempValue;
 	}
-	else if([elementName isEqualToString:@"bylineTitle"] == true)
+	else if([elementName isEqualToString:@"bylinetitle"] == true)
 	{
 		[temp.bylineTitle release];//drop the old value
 		temp.bylineTitle = tempValue;
