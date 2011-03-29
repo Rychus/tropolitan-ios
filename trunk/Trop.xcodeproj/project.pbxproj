@@ -10,8 +10,6 @@
 		04814443133F8F2A00920008 /* banner.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 04814442133F8F2A00920008 /* banner.PNG */; };
 		04855644133DDD5700DD54FC /* EditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855642133DDD5700DD54FC /* EditionsViewController.m */; };
 		04855645133DDD5700DD54FC /* EditionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04855643133DDD5700DD54FC /* EditionsViewController.xib */; };
-		04E83677133F973E0095DEBA /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E83675133F973E0095DEBA /* ArticleViewController.m */; };
-		04E83678133F973E0095DEBA /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E83676133F973E0095DEBA /* ArticleViewController.xib */; };
 		1D3623260D0F684500981E51 /* TropAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TropAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -34,9 +32,6 @@
 		04855641133DDD5700DD54FC /* EditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditionsViewController.h; sourceTree = "<group>"; };
 		04855642133DDD5700DD54FC /* EditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditionsViewController.m; sourceTree = "<group>"; };
 		04855643133DDD5700DD54FC /* EditionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditionsViewController.xib; sourceTree = "<group>"; };
-		04E83674133F973E0095DEBA /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
-		04E83675133F973E0095DEBA /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
-		04E83676133F973E0095DEBA /* ArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleViewController.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* TropAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TropAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* TropAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TropAppDelegate.m; sourceTree = "<group>"; };
@@ -99,9 +94,6 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* TropAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TropAppDelegate.m */,
-				04E83674133F973E0095DEBA /* ArticleViewController.h */,
-				04E83675133F973E0095DEBA /* ArticleViewController.m */,
-				04E83676133F973E0095DEBA /* ArticleViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -211,7 +203,6 @@
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				3FEE609A13381E1400F5423F /* ArticleListView.xib in Resources */,
 				04814443133F8F2A00920008 /* banner.PNG in Resources */,
-				04E83678133F973E0095DEBA /* ArticleViewController.xib in Resources */,
 				04855645133DDD5700DD54FC /* EditionsViewController.xib in Resources */,
 				3F698A6413429BC4006C5B5F /* ArticleViewController.xib in Resources */,
 			);
@@ -231,7 +222,6 @@
 				3FEE607E13381C6800F5423F /* TropEdition.m in Sources */,
 				3FEE607F13381C6800F5423F /* Tropolitan.m in Sources */,
 				3FEE609913381E1400F5423F /* ArticleListViewController.m in Sources */,
-				04E83677133F973E0095DEBA /* ArticleViewController.m in Sources */,
 				04855644133DDD5700DD54FC /* EditionsViewController.m in Sources */,
 				3F698A6513429BC4006C5B5F /* ArticleViewController.m in Sources */,
 			);
