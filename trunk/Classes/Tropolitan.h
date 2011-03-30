@@ -30,7 +30,7 @@
 
 //Functional methods
 -(void) update;//Gets list of editions and sets current to most recent if current nil
-
+-(void) setEdition: (NSInteger)iss: (NSInteger)ed;
 
 
 @end
