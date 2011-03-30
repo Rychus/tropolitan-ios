@@ -45,7 +45,9 @@
 		if(art.headline == articleTitle)
 		{
 			//body = art.body;
-			body = ([NSString stringWithFormat:@"%@\n%@\n%@\n\n%@", art.headline, art.byline, art.bylineTitle, art.body]);
+			NSArray *comps = [art.body componentsSeparatedByCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+			NSString *bod = [comps componentsJoinedByString:@" "];
+			body = ([NSString stringWithFormat:@"%@\n%@\n%@\n\n%@", art.headline, art.byline, art.bylineTitle, bod]);
 			//NSLog(@"body: %@", body);
 		}
 	}
