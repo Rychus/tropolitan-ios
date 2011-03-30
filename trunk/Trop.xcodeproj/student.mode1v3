@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -308,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -324,10 +324,6 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>Tropolitan.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>3F6A55581342AE0C0084A7EE</string>
 										<key>history</key>
 										<array>
 											<string>3F881B1D1338226600A310FD</string>
@@ -341,9 +337,6 @@
 											<string>3F698A5913429A81006C5B5F</string>
 											<string>3F698A6F13429C12006C5B5F</string>
 											<string>3F698A7113429C12006C5B5F</string>
-											<string>3F6A55551342AE0C0084A7EE</string>
-											<string>3F6A55561342AE0C0084A7EE</string>
-											<string>3F6A55571342AE0C0084A7EE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +348,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {965, 290}}</string>
+								<string>{{0, 0}, {965, 281}}</string>
 								<key>RubberWindowFrame</key>
 								<string>86 221 1274 566 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>290pt</string>
+							<string>281pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 295}, {965, 230}}</string>
+								<string>{{0, 286}, {965, 239}}</string>
 								<key>RubberWindowFrame</key>
 								<string>86 221 1274 566 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>230pt</string>
+							<string>239pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3F6A55471342AC8A0084A7EE</string>
+				<string>3F6A557F1342AFB70084A7EE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3F6A55481342AC8A0084A7EE</string>
+				<string>3F6A55801342AFB70084A7EE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -544,7 +537,7 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3FEE604B13381ACD00F5423F</string>
-		<string>/Users/student/Desktop/tropolitan-ios/trunk/Trop.xcodeproj</string>
+		<string>/Users/student/Desktop/tropolitan-ios-fresh/trunk/Trop.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>86 221 1274 566 0 0 1440 878 </string>
@@ -624,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3FEE604B13381ACD00F5423F</string>
-				<string>3F6A55491342AC8A0084A7EE</string>
+				<string>3F6A55811342AFB70084A7EE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -746,13 +739,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>3F6A554A1342AC8A0084A7EE</string>
+				<string>3F6A55821342AFB70084A7EE</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>3F6A554B1342AC8A0084A7EE</string>
-				<string>3F6A554C1342AC8A0084A7EE</string>
-				<string>3F6A554D1342AC8A0084A7EE</string>
-				<string>3F6A554E1342AC8A0084A7EE</string>
-				<string>3F6A554F1342AC8A0084A7EE</string>
+				<string>3F6A55831342AFB70084A7EE</string>
+				<string>3F6A55841342AFB70084A7EE</string>
+				<string>3F6A55851342AFB70084A7EE</string>
+				<string>3F6A55861342AFB70084A7EE</string>
+				<string>3F6A55871342AFB70084A7EE</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -914,7 +907,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3F6A55501342AC8A0084A7EE</string>
+				<string>3F6A55881342AFB70084A7EE</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
