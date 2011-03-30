@@ -30,6 +30,11 @@ struct EditionInfo //basic edition information
 	int volume;
 };
 
+-(void) setEdition: (NSInteger)iss: (NSInteger)ed
+{
+	NSLog(@"Trying to set edition %@,%@",iss,ed);
+}
+
 
 + (Tropolitan*)instance
 {
