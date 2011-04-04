@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Tropolitan.h"
+#import "RootViewController.h"
 
 @interface EditionsViewController : UITableViewController {
 

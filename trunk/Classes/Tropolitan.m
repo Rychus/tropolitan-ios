@@ -32,6 +32,7 @@ struct EditionInfo //basic edition information
 
 -(void) setEdition: (NSInteger)iss: (NSInteger)ed
 {
+	//for some reason this is causing a crash, something to do with NSLog and NSIntegers
 	NSLog(@"Trying to set edition %@,%@",iss,ed);
 }
 

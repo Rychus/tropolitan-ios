@@ -140,13 +140,29 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
+    
+    RootViewController *detailViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+	
+	Tropolitan *trop = [Tropolitan instance];
+	
+	NSString *iss, *vol;
+	NSScanner *scanner = [NSScanner scannerWithString:[editionsList objectAtIndex:[indexPath row]]];
+	
+	[scanner scanUpToString:@"Volume " intoString:NULL];
+	[scanner scanString:@"Volume " intoString:NULL];
+	[scanner scanUpToString:@"Issue " intoString:&vol];
+	[scanner scanString:@"Issue " intoString:NULL];
+	[scanner scanUpToString:@"\n" intoString:&iss];
+	
+	NSInteger issue = [iss integerValue];
+	NSInteger volume = [vol integerValue];
+	
+	[trop setEdition:(NSInteger)issue :(NSInteger)volume];
+	 
     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    //[self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
-    */
+    
 }
 
 
