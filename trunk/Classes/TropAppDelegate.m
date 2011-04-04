@@ -9,6 +9,7 @@
 #import "TropAppDelegate.h"
 #import "RootViewController.h"
 #import "EditionsViewController.h"
+#import "AboutView.h"
 
 
 @implementation TropAppDelegate
@@ -16,6 +17,7 @@
 @synthesize window;
 @synthesize navigationController;
 @synthesize editionsButton;
+@synthesize aboutButton;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -27,6 +29,15 @@
 	[self.navigationController pushViewController:controller animated:YES]; // "Pushing the controller on the screen"  
 	[controller release];
 }
+
+- (IBAction)aboutView:(id) sender
+{
+	NSLog(@"Loading about");
+	AboutView *controller = [[AboutView alloc] initWithNibName:@"AboutView" bundle:nil];
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
+}
+	
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	//create a view  for the banner logo add the banner to this view

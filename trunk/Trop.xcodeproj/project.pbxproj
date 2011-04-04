@@ -21,6 +21,8 @@
 		3F698A6413429BC4006C5B5F /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F698A6113429BC4006C5B5F /* ArticleViewController.xib */; };
 		3F698A6513429BC4006C5B5F /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F698A6213429BC4006C5B5F /* ArticleViewController.m */; };
 		3F6A558B1342B0810084A7EE /* UINavBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A558A1342B0810084A7EE /* UINavBarImage.m */; };
+		3F70D04F134A7EA3006F3C7A /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70D04D134A7EA3006F3C7A /* AboutView.m */; };
+		3F70D050134A7EA3006F3C7A /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F70D04E134A7EA3006F3C7A /* AboutView.xib */; };
 		3FEE607D13381C6800F5423F /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE607813381C6800F5423F /* Article.m */; };
 		3FEE607E13381C6800F5423F /* TropEdition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE607A13381C6800F5423F /* TropEdition.m */; };
 		3FEE607F13381C6800F5423F /* Tropolitan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE607C13381C6800F5423F /* Tropolitan.m */; };
@@ -50,6 +52,9 @@
 		3F698A6313429BC4006C5B5F /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
 		3F6A558A1342B0810084A7EE /* UINavBarImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavBarImage.m; sourceTree = "<group>"; };
 		3F6A558C1342B08D0084A7EE /* UINavBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavBarImage.h; sourceTree = "<group>"; };
+		3F70D04C134A7EA3006F3C7A /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		3F70D04D134A7EA3006F3C7A /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		3F70D04E134A7EA3006F3C7A /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
 		3FEE607713381C6800F5423F /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		3FEE607813381C6800F5423F /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		3FEE607913381C6800F5423F /* TropEdition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TropEdition.h; sourceTree = "<group>"; };
@@ -79,6 +84,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F70D04C134A7EA3006F3C7A /* AboutView.h */,
+				3F70D04D134A7EA3006F3C7A /* AboutView.m */,
+				3F70D04E134A7EA3006F3C7A /* AboutView.xib */,
 				3F6A558C1342B08D0084A7EE /* UINavBarImage.h */,
 				3F6A558A1342B0810084A7EE /* UINavBarImage.m */,
 				3F698A6113429BC4006C5B5F /* ArticleViewController.xib */,
@@ -210,6 +218,7 @@
 				04814443133F8F2A00920008 /* banner.PNG in Resources */,
 				04855645133DDD5700DD54FC /* EditionsViewController.xib in Resources */,
 				3F698A6413429BC4006C5B5F /* ArticleViewController.xib in Resources */,
+				3F70D050134A7EA3006F3C7A /* AboutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +239,7 @@
 				04855644133DDD5700DD54FC /* EditionsViewController.m in Sources */,
 				3F698A6513429BC4006C5B5F /* ArticleViewController.m in Sources */,
 				3F6A558B1342B0810084A7EE /* UINavBarImage.m in Sources */,
+				3F70D04F134A7EA3006F3C7A /* AboutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
