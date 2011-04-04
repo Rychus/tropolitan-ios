@@ -24,7 +24,8 @@
 	
 	for (TropEdition *ed in [Tropolitan instance].editions)
 	{
-		NSString *output = ([NSString stringWithFormat:@"Volume %@, Issue %@", ed.volume, ed.issue]);
+		//NSString *output = ([NSString stringWithFormat:@"Volume %@, Issue %@", ed.volume, ed.issue]);
+		NSString *output = ([NSString stringWithFormat:@"Date %@", ed.date]);
 		[editionsList addObject:output];
 		NSLog(@"First ed: %@", [editionsList objectAtIndex:0]);		
 	}

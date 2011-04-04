@@ -30,10 +30,17 @@ struct EditionInfo //basic edition information
 	int volume;
 };
 
--(void) setEdition: (NSInteger)iss: (NSInteger)ed
+-(void) setEdition: (NSInteger)iss: (NSInteger)vol
 {
-	//for some reason this is causing a crash, something to do with NSLog and NSIntegers
-	NSLog(@"Trying to set edition %@,%@",iss,ed);
+	if(iss == nil || vol == nil)//Probably sent on startup which means just choose most recent
+		current = [editions objectAtIndex:0];
+		
+	for (TropEdition *ed in [Tropolitan instance].editions)
+	{
+		if(iss == ed.issue && ed.volume == vol)
+			NSLog(@"Found the selected edition");
+		
+	}
 }
 
 

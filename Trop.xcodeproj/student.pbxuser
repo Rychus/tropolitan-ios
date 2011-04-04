@@ -2,17 +2,16 @@
 {
 	04855641133DDD5700DD54FC /* EditionsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1005, 276}}";
+			sepNavIntBoundsRect = "{{0, 0}, {904, 273}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 356}";
+			sepNavVisRange = "{0, 382}";
 		};
 	};
 	04855642133DDD5700DD54FC /* EditionsViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3982, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4033, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4083, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4784}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1070, 2431}}";
-			sepNavSelRange = "{534, 0}";
-			sepNavVisRange = "{215, 822}";
+			sepNavIntBoundsRect = "{{0, 0}, {904, 2613}}";
+			sepNavSelRange = "{337, 301}";
+			sepNavVisRange = "{242, 579}";
 		};
 	};
 	1D3623250D0F684500981E51 /* TropAppDelegate.m */ = {
@@ -130,8 +129,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 323137458;
-			PBXWorkspaceStateSaveDate = 323137458;
+			PBXPerProjectTemplateStateSaveDate = 323650455;
+			PBXWorkspaceStateSaveDate = 323650455;
 		};
 		perUserProjectItems = {
 			3F37A01F133959C60028EF33 = 3F37A01F133959C60028EF33 /* PBXTextBookmark */;
@@ -1478,6 +1477,35 @@
 	3FEE605513381ACD00F5423F /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	3FEE607913381C6800F5423F /* TropEdition.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 481}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{21, 499}";
+		};
+	};
+	3FEE607A13381C6800F5423F /* TropEdition.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1625}}";
+			sepNavSelRange = "{1542, 0}";
+			sepNavVisRange = "{870, 793}";
+		};
+	};
+	3FEE607B13381C6800F5423F /* Tropolitan.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 387}";
+		};
+	};
+	3FEE607C13381C6800F5423F /* Tropolitan.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1833}}";
+			sepNavSelRange = "{971, 0}";
+			sepNavVisRange = "{719, 406}";
+			sepNavWindowFrame = "{{80, 45}, {1323, 829}}";
+		};
 	};
 	3FEE609613381E1400F5423F /* ArticleListViewController.h */ = {
 		uiCtxt = {

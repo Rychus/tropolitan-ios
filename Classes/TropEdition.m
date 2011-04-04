@@ -54,7 +54,10 @@
 	{
 		issue = (int)[attributeDict valueForKey:@"issue"];
 		volume = (int)[attributeDict valueForKey:@"volume"];
-		//get date info here
+		NSDateFormatter *df = [[NSDateFormatter alloc] init];
+		[df setDateFormat:@"yyyy-MM-dd"];
+		date = [df dateFromString:[attributeDict valueForKey:@"releasedate"]];
+
 	}
 	//This is what we are mainly looking for, articles
 	else if([elementName isEqualToString:@"article"] == true)
