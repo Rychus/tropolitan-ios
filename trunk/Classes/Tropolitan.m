@@ -104,7 +104,7 @@ struct EditionInfo //basic edition information
 	
 	NSLog(@"Found: %i Editions", [editions count ]);
 	
-	NSSortDescriptor *issSorter = [[NSSortDescriptor alloc] initWithKey:@"issue" ascending:YES];
+	NSSortDescriptor *issSorter = [[NSSortDescriptor alloc] initWithKey:@"issue" ascending:NO];
 	[editions sortUsingDescriptors:[NSArray arrayWithObject:issSorter]];
 	
 	if([editions count] > 0)
