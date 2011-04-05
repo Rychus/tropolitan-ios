@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	self.navigationItem.hidesBackButton = YES;
+	
 	sectionList = [[NSMutableArray alloc] init];
 	
 	NSLog(@"Listing Sections");

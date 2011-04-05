@@ -18,6 +18,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		3F5C1B6A134BD7470082744E /* Trop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5C1B69134BD7470082744E /* Trop.png */; };
 		3F698A6413429BC4006C5B5F /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F698A6113429BC4006C5B5F /* ArticleViewController.xib */; };
 		3F698A6513429BC4006C5B5F /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F698A6213429BC4006C5B5F /* ArticleViewController.m */; };
 		3F6A558B1342B0810084A7EE /* UINavBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A558A1342B0810084A7EE /* UINavBarImage.m */; };
@@ -47,6 +48,7 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F5C1B69134BD7470082744E /* Trop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trop.png; sourceTree = "<group>"; };
 		3F698A6113429BC4006C5B5F /* ArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleViewController.xib; sourceTree = "<group>"; };
 		3F698A6213429BC4006C5B5F /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		3F698A6313429BC4006C5B5F /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F5C1B69134BD7470082744E /* Trop.png */,
 				04814442133F8F2A00920008 /* banner.PNG */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -219,6 +222,7 @@
 				04855645133DDD5700DD54FC /* EditionsViewController.xib in Resources */,
 				3F698A6413429BC4006C5B5F /* ArticleViewController.xib in Resources */,
 				3F70D050134A7EA3006F3C7A /* AboutView.xib in Resources */,
+				3F5C1B6A134BD7470082744E /* Trop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
