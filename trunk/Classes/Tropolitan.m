@@ -30,16 +30,22 @@ struct EditionInfo //basic edition information
 	int volume;
 };
 
--(void) setEdition: (NSInteger)iss: (NSInteger)vol
+-(void) setEdition: (int)iss: (int)vol
 {
 	if(iss == nil || vol == nil)//Probably sent on startup which means just choose most recent
 		current = [editions objectAtIndex:0];
-		
+	
 	for (TropEdition *ed in [Tropolitan instance].editions)
 	{
-		if(iss == ed.issue && ed.volume == vol)
-			NSLog(@"Found the selected edition");
+		int myIssue = [ed.issue intValue] ;
+		int myVolume = [ed.volume intValue];
 		
+		if(iss == myIssue && vol == myVolume)
+		{
+			NSLog(@"Found the selected edition");
+			current = ed;
+			NSLog(@"hi");
+		}
 	}
 }
 
