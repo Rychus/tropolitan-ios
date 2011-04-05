@@ -24,8 +24,8 @@
 	
 	for (TropEdition *ed in [Tropolitan instance].editions)
 	{
-		//NSString *output = ([NSString stringWithFormat:@"Volume %@, Issue %@", ed.volume, ed.issue]);
-		NSString *output = ([NSString stringWithFormat:@"Date %@", ed.date]);
+		NSString *output = ([NSString stringWithFormat:@"Volume %@, Issue %@", ed.volume, ed.issue]);
+		//NSString *output = ([NSString stringWithFormat:@"Date %@", ed.date]);
 		[editionsList addObject:output];
 		NSLog(@"First ed: %@", [editionsList objectAtIndex:0]);		
 	}
@@ -155,13 +155,13 @@
 	[scanner scanString:@"Issue " intoString:NULL];
 	[scanner scanUpToString:@"\n" intoString:&iss];
 	
-	NSInteger issue = [iss integerValue];
-	NSInteger volume = [vol integerValue];
+	int issue = [iss intValue];
+	int volume = [vol intValue];
 	
-	[trop setEdition:(NSInteger)issue :(NSInteger)volume];
+	[trop setEdition:(int)issue :(int)volume];
 	 
     // Pass the selected object to the new view controller.
-    //[self.navigationController pushViewController:detailViewController animated:YES];
+    [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     
 }
