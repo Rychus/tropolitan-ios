@@ -34,6 +34,12 @@
 	}
 	
 	self.navigationItem.title = @"Sections";
+	
+	//Hiding display of title
+	UILabel *label = [[[UILabel alloc] init] autorelease];
+	self.navigationItem.titleView = label;
+	label.text = @"";
+	
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -99,6 +105,7 @@
 	[cell setText: [sectionList objectAtIndex:indexPath.row]];
     return cell;
 }
+
 
 
 /*
