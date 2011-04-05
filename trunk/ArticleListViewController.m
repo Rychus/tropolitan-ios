@@ -21,7 +21,13 @@
 {
 	sectionTitle = [[NSString alloc] init];
 	sectionTitle = title;
-	self.navigationItem.title = title;	
+	self.navigationItem.title = title;
+	
+	//Hiding the display of title
+	UILabel *label = [[[UILabel alloc] init] autorelease];
+	self.navigationItem.titleView = label;
+	label.text = @"";
+	
 }
 
 #pragma mark -
