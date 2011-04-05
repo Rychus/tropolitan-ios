@@ -21,14 +21,12 @@ static NSMutableDictionary *navigationBarImages = NULL;
     }   
 }
 
-- (void)drawRect:(CGRect)rect
-{
-    NSString *imageName=[navigationBarImages objectForKey:[NSValue valueWithNonretainedObject: self]];
-    if (imageName==nil) {
-        imageName=@"banner.png";
-    }
-    UIImage *image = [UIImage imageNamed: imageName];
+- (void)drawRect:(CGRect)rect {
+	
+    UIImage *image = [UIImage imageNamed: @"banner.png"];
+	
     [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+	
 }
 
 //Allow the setting of an image for the navigation bar
